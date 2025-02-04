@@ -5,7 +5,7 @@ import numpy as np
 sample_rate = 1
 
 
-def ascii_art(file, op):
+def code(file, op):
     im = Image.open("input/" + file)
 
     # font = ImageFont.load_default()
@@ -59,5 +59,5 @@ def ascii_art(file, op):
 
 if __name__ == "__main__":
     file_name = ""
-    ascii_art(file_name, 1)
-    ascii_art(file_name, 2)
+    code(file_name, 1)
+    code(file_name, 2)
