@@ -58,5 +58,6 @@ def ascii_art(file, op):
         
 
 if __name__ == "__main__":
-    ascii_art("img3.jpg", 1)
-    ascii_art("img3.jpg", 2)
+    file_name = ""
+    ascii_art(file_name, 1)
+    ascii_art(file_name, 2)
